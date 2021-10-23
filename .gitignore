@@ -21,4 +21,4 @@ bin-release/
 .idea/
 
 # 项目里的.iml文件（强迫症）
-./*/.iml
+*/*.iml
