@@ -5,6 +5,7 @@
        http://dubbo.apache.org/schema/dubbo http://dubbo.apache.org/schema/dubbo/dubbo.xsd
 http://www.springframework.org/schema/beans
        http://www.springframework.org/schema/beans/spring-beans-4.2.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+    <!--图方便，aop包扫描了-->
     <context:component-scan base-package="com.dodayum.service.impl"/>
 
     <dubbo:application name="user-service-consumer"/>
